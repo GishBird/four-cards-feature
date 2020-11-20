@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+  }
+  header {
+    margin-top: 100px;
+    max-width: 1440px;
+
+  }
+   h1 {
+    margin-left: auto;
+    margin-right: auto;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 200;
+      color: hsl(234, 12%, 34%);
+   }
+    span {
+      margin-left: auto;
+    margin-right: auto;
+        text-align: center;
+        display: block;
+        font-weight: 600;
+        color: hsl(234, 12%, 34%);
+      }
+
+  .title-text {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+  }
+
+  /* Bottom Card Section  */
+
+  .bottom {
+      margin-top: 50px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .left-card {
+    width: 350px;
+    height: 250px;
+    border-radius: 4px;
+    margin-right: 25px;
+    border-top: solid 5px hsl(180, 62%, 55%);
+    box-shadow: 0px 10px 20px hsl(229, 6%, 66%);
+      
+  }
+  .magnify-icon {
+    padding-left: 75%;
+    padding-top: 5%;
+  }
+
+  .supervisor {
+    opacity: 0.9;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  .left-text {
+    padding-left: 5%;
+    color: hsl(229, 6%, 66%);
+  }
+
+  .top-center-card {
+    width: 350px;
+    height: 250px;
+    border-radius: 4px;
+    margin: 20px auto;
+    border-top: solid 5px hsl(0, 78%, 62%);
+    box-shadow: 0px 10px 20px hsl(229, 6%, 66%);
+  }
+
+  .team-builder {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  .top-center-text {
+    padding-left: 5%;
+    color: hsl(229, 6%, 66%);
+  }
+  .team-icon {
+    padding-left: 75%;
+    padding-top: 5%;
+  }
+
+
+  .bottom-center-card {
+    width: 350px;
+    height: 250px;
+    border-radius: 4px;
+    margin: 25px auto;
+    border-top: 5px hsl(34, 97%, 64%);
+    box-shadow: 0px 10px 20px hsl(229, 6%, 66%);
+  }
+  .karma {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  .bottom-center-text {
+    padding-left: 5%;
+    color: hsl(229, 6%, 66%);
+  }
+  .karma-icon {
+    padding-left: 75%;
+    padding-top: 5%; 
+  }
+
+
+  .right-card {
+    width: 350px;
+    height: 250px;
+    border-radius: 4px;
+    margin-left: 25px;
+    border-top: 5px hsl(212, 86%, 64%);
+    box-shadow: 0px 10px 20px hsl(229, 6%, 66%);
+  }
+  .calculator-icon {
+    padding-left: 75%;
+    padding-top: 5%;
+  }
+  .calculator {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  .calculator-text {
+    padding-left: 5%;
+    color: hsl(229, 6%, 66%);
+  }
+
+  @media only screen and (max-width: 375px){
+      .left-card {
+        margin-right: 0;
+      }
+      .right-card {
+          margin-left: 0;
+      }
+     
+      header {
+        width: 375px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+          
+      
+      .title-text p{
+        font-size: 1.1rem;
+      }
+    }
