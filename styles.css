@@ -20,11 +20,11 @@ html {
       text-align: center;
       font-size: 2.5rem;
       font-weight: 200;
-      color: hsl(234, 12%, 34%);
+      color: red;
    }
     span {
       margin-left: auto;
-    margin-right: auto;
+      margin-right: auto;
         text-align: center;
         display: block;
         font-weight: 600;
